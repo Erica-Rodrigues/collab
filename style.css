@@ -16,7 +16,8 @@ main{
 .terrasse{
     display: flex;
     width: 75%;
-    flex-direction: column;
+    flex-direction: column;    
+    margin-bottom: 5rem;
     h2{
         margin: 3rem 0;
         text-transform: uppercase;
