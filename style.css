@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(180DEG,rgb(255,255,255), rgb(186,248,186) );
+}
+
+
+
+.terrasse{
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    h2{
+        margin: 3rem 0;
+        text-transform: uppercase;
+    }
+    p{
+        margin-bottom: 2rem;
+    }
+    figure{
+        figcaption{
+            display: none;
+        }
+        img{
+            height: 70vh;
+            border-radius: 12px;
+        }
+    }
+}
